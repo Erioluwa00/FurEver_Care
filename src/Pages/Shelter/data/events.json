@@ -1,0 +1,108 @@
+{
+  "events": [
+    {
+      "title": "Adoption Drive: Find Your Furry Friend",
+      "description": "Join us for a day full of fun, games, and adoption opportunities! Meet pets looking for their forever homes.",
+      "date": "2025-09-20",
+      "location": "Central City Shelter, Main Hall",
+      "image": "https://avatars.mds.yandex.net/i?id=55cef7df62323699d0e3074ac95797f9b983fe78-16330514-images-thumbs&n=13",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Fundraising Gala for Shelter Expansion",
+      "description": "Support our mission to expand and improve shelter facilities. Enjoy a night of dinner, live music, and charity auctions.",
+      "date": "2025-10-05",
+      "location": "Grand Plaza Hotel",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/fundraising-for-animal-shelter-design-template-1415f111a2308ee6b2082b1e10d5f880_screen.jpg?ts=1705397562",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Pet Health & Wellness Workshop",
+      "description": "Learn about pet nutrition, training, and healthcare from professionals. Free vet check-ups for attending pets!",
+      "date": "2025-08-15",
+      "location": "Shelter Community Room",
+      "image": "https://avatars.mds.yandex.net/i?id=8af322f4c91eeaed7adfec6e27c0718321eced27-9843251-images-thumbs&n=13",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Volunteer Orientation Day",
+      "description": "Interested in volunteering? Attend this orientation to learn how you can help animals and our shelter programs.",
+      "date": "2025-09-10",
+      "location": "Central City Shelter, Volunteer Center",
+      "image": "https://avatars.mds.yandex.net/i?id=c54930c4a776e6dd8b63c6704bcbdab16d07fb13-5546680-images-thumbs&n=13",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Paws & Play Family Picnic",
+      "description": "Bring your family and furry friends for a picnic in the park with games, food stalls, and pet-friendly activities.",
+      "date": "2025-09-28",
+      "location": "Riverside Park",
+      "image": "https://avatars.mds.yandex.net/i?id=9bf2857e9e2697fed4c35cca3cd389bdb457f636-9107575-images-thumbs&n=13",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Pet Adoption Fair at the Mall",
+      "description": "Meet adoptable pets at our pop-up event inside the mall. A fun and convenient way to find your furry friend!",
+      "date": "2025-10-12",
+      "location": "City Center Mall, Ground Floor",
+      "image": "https://avatars.mds.yandex.net/i?id=898bd4a6dcdb40c6b0885cdd4e6dd4b5c1d53e40-9589172-images-thumbs&n=13",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Halloween Pet Costume Contest",
+      "description": "Dress up your pets for Halloween! Prizes for funniest, scariest, and cutest costumes. Open to all ages.",
+      "date": "2025-10-31",
+      "location": "Central City Shelter, Courtyard",
+      "image": "https://t4.ftcdn.net/jpg/09/38/02/81/360_F_938028102_v7g3hVku85nIFpzHWeEhsnixgqZJaAfv.jpg",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Charity Fun Run: Run for Paws",
+      "description": "Participate in our 5K charity run to support shelter animals. All proceeds go towards food, medical care, and housing.",
+      "date": "2025-11-08",
+      "location": "Downtown City Square",
+      "image": "https://avatars.mds.yandex.net/i?id=a066adf38450d6f65a9064f9dbf97fa2727d9985-12144830-images-thumbs&n=13",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Holiday Toy & Blanket Drive",
+      "description": "Donate toys, food, and blankets to keep our animals warm and happy during the winter season.",
+      "date": "2025-12-05",
+      "location": "Central City Shelter, Lobby",
+      "image": "https://avatars.mds.yandex.net/get-mpic/1927699/img_id6439689560298363939.jpeg/orig",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Pet Photography Day",
+      "description": "Get professional photos taken of your pets! Proceeds support shelter animals while you capture memories.",
+      "date": "2025-12-15",
+      "location": "Happy Tails Studio",
+      "image": "https://i.pinimg.com/originals/7f/7d/f9/7f7df9799fff62156fcca7337d6b20e9.jpg",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Winter Adoption Festival",
+      "description": "A festive adoption event with hot cocoa, music, and lots of adorable pets waiting for homes.",
+      "date": "2025-12-22",
+      "location": "Shelter Outdoor Grounds",
+      "image": "https://avatars.mds.yandex.net/i?id=b70b13eeafa426e11784bdea92c33ae706a3122f-10730710-images-thumbs&n=13",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Kids & Pets Education Day",
+      "description": "A day dedicated to teaching kids about caring for animals through fun workshops, crafts, and meet-the-pet sessions.",
+      "date": "2026-01-10",
+      "location": "Central Library Auditorium",
+      "image": "https://avatars.mds.yandex.net/i?id=91ff2edd8ef31c599931bdde0c6bfc02bc31910b-4340501-images-thumbs&n=13",
+      "status": "Upcoming"
+    },
+    {
+      "title": "Valentine’s Day Pet Matchmaking",
+      "description": "Find love this Valentine’s Day with our special adoption matchmaking event. Singles and couples welcome!",
+      "date": "2026-02-14",
+      "location": "Central City Shelter, Main Hall",
+      "image": "https://avatars.mds.yandex.net/i?id=da4a3b49fa16a602bab5dfd491418cd3ee7a2191-5298842-images-thumbs&n=13",
+      "status": "Upcoming"
+    }
+  ]
+}

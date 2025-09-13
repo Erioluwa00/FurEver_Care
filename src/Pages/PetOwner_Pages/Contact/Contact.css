@@ -1,0 +1,112 @@
+.contact-container {
+    padding: 4rem 0;
+}
+
+.contact-info-section {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.contact-info-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.contact-info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.contact-info-card {
+    background: var(--background-color);
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.contact-info-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.contact-info-card:nth-child(1) .contact-info-icon {
+    background-color: var(--primary-color);
+}
+
+.contact-info-card:nth-child(2) .contact-info-icon {
+    background-color: var(--secondary-color);
+}
+
+.contact-info-card:nth-child(3) .contact-info-icon {
+    background-color: var(--accent-color);
+}
+.contact-time{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.contact-info-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contact-info-detail {
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.contact-info-detail a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info-detail a:hover {
+    color: var(--accent-color);
+}
+
+.contact-info-map {
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.contact-info-box {
+    margin-top: 1.5rem;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.contact-info-box h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.contact-info-box p {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    margin: 0;
+}

@@ -1,0 +1,10 @@
+
+.product-list .card ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.product-list .card ul li {
+  margin-bottom: 0.5rem;
+}

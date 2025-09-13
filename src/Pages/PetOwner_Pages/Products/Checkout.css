@@ -1,0 +1,130 @@
+.checkout-container {
+    padding: 2rem 0;
+  }
+  
+  .checkout-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkout-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-color);
+  }
+  
+  .order-summary {
+    background: #f7f7f7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .order-summary h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .summary-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .summary-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  
+  .summary-item-details h4 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .summary-item-details p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .summary-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  
+  .form-group-half {
+    width: calc(50% - 20px);
+    margin: 0 10px;
+  }
+  
+  .payment-methods {
+    margin-bottom: 1.5rem;
+  }
+  
+  .payment-method {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .payment-method:hover {
+    border-color: var(--primary-color);
+  }
+  
+  .payment-method.selected {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 10px rgba(255, 159, 28, 0.5);
+  }
+  
+  .payment-method input[type="radio"] {
+    margin-right: 1rem;
+  }
+  
+  .payment-method-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .credit-card-details {
+    display: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f7f7f7;
+    border-radius: 8px;
+  }
+  
+  .credit-card-details.visible {
+    display: block;
+  }
+  
+  .btn-place-order {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  

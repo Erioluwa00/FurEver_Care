@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FurEver Care - Veterinary Portal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./vetprofile.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <div class="header-logo">
+          <i class="fas fa-paw"></i>
+          <span>FurEver Care</span>
+        </div>
+        <div class="hamburger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="content-wrapper">
+      <div class="sidebar">
+        <div class="logo">
+          <i class="fas fa-paw"></i>
+          FurEver Care
+        </div>
+
+        <ul class="sidebar-links">
+          <li>
+            <a href="./profile.html" class="active"
+              ><i class="fas fa-user"></i> Profile</a
+            >
+          </li>
+          <li>
+            <a href="./appointments.html"
+              ><i class="fas fa-calendar"></i> Appointments</a
+            >
+          </li>
+          <li>
+            <a href="./treatment-history.html"
+              ><i class="fas fa-history"></i> Treatment History</a
+            >
+          </li>
+          <li>
+            <a href="./case-studies.html"
+              ><i class="fas fa-file-medical"></i> Case Studies</a
+            >
+          </li>
+        </ul>
+
+        <div class="logout">
+          <a
+            href="../index.html"
+            class="btn"
+            style="display: block; text-align: center"
+            ><i class="fas fa-sign-out-alt"></i> Logout</a
+          >
+        </div>
+      </div>
+
+      <div class="main-content">
+        <header class="dashboard-header">
+          <div class="header-content">
+            <h2 class="header-title">Profile</h2>
+            <div class="user-profile">
+              <img
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="User Avatar"
+                class="avatar"
+              />
+              <span>Dr. Jane Doe</span>
+            </div>
+          </div>
+        </header>
+
+        <div id="profile-content" class="section">
+          <h2>Meet Our Veterinarians</h2>
+
+          <div class="vet-header">
+            <img
+              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              alt="Dr. Jane Doe"
+              class="vet-avatar"
+            />
+            <div class="vet-info">
+              <h3>Dr. Jane Doe</h3>
+              <p class="vet-specialty">Feline Medicine Specialist</p>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <strong>Email</strong><br />
+                jane.doe@email.com
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <strong>Phone</strong><br />
+                555-123-4567
+              </div>
+            </div>
+          </div>
+
+          <div class="time-slots">
+            <h4>Available Time Slots</h4>
+            <div class="slots-container">
+              <div class="time-slot">Mon, 10:00 AM</div>
+              <div class="time-slot">Tue, 2:00 PM</div>
+              <div class="time-slot">Wed, 9:30 AM</div>
+              <div class="time-slot">Thu, 3:30 PM</div>
+              <div class="time-slot">Fri, 11:00 AM</div>
+            </div>
+          </div>
+
+          <div class="time-slots">
+            <h4>Time Booked</h4>
+            <div class="slots-container">
+              <div class="time-slot">Mon, 1:00 PM</div>
+              <div class="time-slot">Tue, 8:00 AM</div>
+              <div class="time-slot">Wed, 7:30 PM</div>
+              <div class="time-slot">Thu, 5:30 PM</div>
+              <div class="time-slot">Fri, 9:00 AM</div>
+            </div>
+          </div>
+
+        
+          <div class="medical-history">
+            <h2>Pet Medical Histories</h2>
+            <p>
+              Recent patients and their medical records under Dr. Doe's care
+            </p>
+
+            <div class="pet-cards">
+              <!-- Pet 1 -->
+              <div class="pet-card">
+                <div class="pet-card-header">
+                  <img
+                    src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                    alt="Whiskers"
+                    class="pet-avatar"
+                  />
+                  <div class="pet-info">
+                    <h3>Whiskers</h3>
+                    <p>Domestic Shorthair · 5 years</p>
+                  </div>
+                </div>
+                <div class="pet-card-body">
+                  <div class="medical-records">
+                    <div class="record-item">
+                      <div class="record-date">Sep 12, 2023</div>
+                      <div class="record-details">
+                        <p>Annual check-up and vaccination booster</p>
+                        <span class="medication">FVRCP Vaccine</span>
+                        <span class="medication">Rabies Vaccine</span>
+                      </div>
+                    </div>
+                    <div class="record-item">
+                      <div class="record-date">Mar 15, 2023</div>
+                      <div class="record-details">
+                        <p>Dental cleaning and minor gingivitis treatment</p>
+                        <span class="medication">Antiseptic Oral Gel</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pet 2 -->
+              <div class="pet-card">
+                <div class="pet-card-header">
+                  <img
+                    src="https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                    alt="Max"
+                    class="pet-avatar"
+                  />
+                  <div class="pet-info">
+                    <h3>Max</h3>
+                    <p>Golden Retriever · 3 years</p>
+                  </div>
+                </div>
+                <div class="pet-card-body">
+                  <div class="medical-records">
+                    <div class="record-item">
+                      <div class="record-date">Aug 28, 2023</div>
+                      <div class="record-details">
+                        <p>Dental cleaning and extraction of fractured tooth</p>
+                        <span class="medication">Pain Medication</span>
+                        <span class="medication">Antibiotics</span>
+                      </div>
+                    </div>
+                    <div class="record-item">
+                      <div class="record-date">Jun 5, 2023</div>
+                      <div class="record-details">
+                        <p>Routine vaccination and heartworm prevention</p>
+                        <span class="medication">DHPP Vaccine</span>
+                        <span class="medication">Heartgard</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pet 3 -->
+              <div class="pet-card">
+                <div class="pet-card-header">
+                  <img
+                    src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80"
+                    alt="Bella"
+                    class="pet-avatar"
+                  />
+                  <div class="pet-info">
+                    <h3>Bella</h3>
+                    <p>French Bulldog · 4 years</p>
+                  </div>
+                </div>
+                <div class="pet-card-body">
+                  <div class="medical-records">
+                    <div class="record-item">
+                      <div class="record-date">Jul 15, 2023</div>
+                      <div class="record-details">
+                        <p>Treatment for skin allergy and medicated shampoo</p>
+                        <span class="medication">Apoquel</span>
+                        <span class="medication">Medicated Shampoo</span>
+                      </div>
+                    </div>
+                    <div class="record-item">
+                      <div class="record-date">Jan 22, 2023</div>
+                      <div class="record-details">
+                        <p>Breathing difficulty examination</p>
+                        <span class="medication">Anti-inflammatory</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="./appointments.html" class="btn" style="margin-top: 30px"
+            >Book Appointment</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="./vet.js"></script>
+  </body>
+</html>

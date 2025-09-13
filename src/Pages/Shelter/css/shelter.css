@@ -1,0 +1,26 @@
+.shelter-page {
+    font-family: "Lato", sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+.shelter-header {
+  background: #333;
+  padding: 10px;
+}
+
+.shelter-header nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.filters button {
+  margin-right: 10px;
+}

@@ -1,0 +1,175 @@
+{
+  "adoptionStories": {
+    "dogs": [
+      {
+        "id": "dog-story-001",
+        "petId": "dog-001",
+        "name": "Buddy",
+        "age": "3 years",
+        "title": "A Family’s Best Friend",
+        "story": "Buddy was rescued from a shelter after being abandoned. The Johnson family’s children immediately bonded with his gentle nature. He loves playing fetch and cuddling during movie nights. Buddy has brought joy and comfort to his new family, proving every rescued dog has love to share.",
+        "image": "https://i.pinimg.com/474x/7d/ba/48/7dba484ef4f77f4e73dd23602e67f8b0.jpg?nii=t",
+        "adoptedOn": "2024-05-10",
+        "location": "Lagos, Nigeria"
+      },
+      {
+        "id": "dog-story-002",
+        "petId": "dog-002",
+        "name": "Rex",
+        "age": "5 years",
+        "title": "Therapy Dog Extraordinaire",
+        "story": "Rex was found wandering the streets, hungry and alone. Rescued and trained as a therapy dog, he now visits a senior care facility, easing anxieties and bringing smiles. Rex shows how a loving home can turn a lost dog into a source of comfort and healing.",
+        "image": "https://avatars.mds.yandex.net/i?id=71909a7a245e99e2d0d5270f92bb12ea50374f96-8194355-images-thumbs&n=13",
+        "adoptedOn": "2024-03-22",
+        "location": "Abuja, Nigeria"
+      },
+      {
+        "id": "dog-story-003",
+        "petId": "dog-003",
+        "name": "Max",
+        "age": "4 years",
+        "title": "From Shelter to Superstar",
+        "story": "Max was shy when rescued but soon charmed his way into the hearts of the Parker family. He enjoys long walks, playful chases, and snuggling at night. Max’s transformation highlights the power of love and patience in adopting pets.",
+        "image": "https://avatars.mds.yandex.net/i?id=e3f11427c8e769a2c4254b7505c8cea4de788b7b-12640484-images-thumbs&n=13",
+        "adoptedOn": "2024-04-15",
+        "location": "Port Harcourt, Nigeria"
+      },
+      {
+        "id": "dog-story-004",
+        "petId": "dog-004",
+        "name": "Charlie",
+        "age": "2 years",
+        "title": "Adventure Buddy",
+        "story": "Charlie joined the Martins family and quickly became their hiking companion. Full of energy and curiosity, he brings laughter and excitement to every adventure. His story emphasizes the joy of matching the right dog with an active family.",
+        "image": "https://avatars.mds.yandex.net/i?id=9e4204e0d098fe892fb979dae7da30caeff01a6e-4937827-images-thumbs&n=13",
+        "adoptedOn": "2024-06-01",
+        "location": "Kaduna, Nigeria"
+      },
+      {
+        "id": "dog-story-005",
+        "petId": "dog-005",
+        "name": "Bella",
+        "age": "3 years",
+        "title": "A Gentle Soul",
+        "story": "Bella was timid at the shelter, but the Ahmed family’s gentle care helped her flourish. She loves napping on sunny spots and greeting everyone with soft tail wags. Bella’s story is about patience, love, and trust in rescuing pets.",
+        "image": "https://avatars.mds.yandex.net/i?id=e114d46fd1788d4020013f5e2fb40b95cd67478b-5235511-images-thumbs&n=13",
+        "adoptedOn": "2024-07-10",
+        "location": "Ibadan, Nigeria"
+      }
+    ],
+    "cats": [
+      {
+        "id": "cat-story-001",
+        "petId": "cat-001",
+        "name": "Mittens",
+        "age": "2 years",
+        "title": "Spoiled and Loved",
+        "story": "Mittens was rescued from the street. Sarah’s love and care turned her timid nature into playful affection. Mittens now enjoys toys, treats, and exploring every corner of her home, showing the transformative power of patience and care.",
+        "image": "https://avatars.mds.yandex.net/i?id=dbe2ba4787157866474adadfa135485a-3694487-images-thumbs&n=13",
+        "adoptedOn": "2024-02-15",
+        "location": "Ibadan, Nigeria"
+      },
+      {
+        "id": "cat-story-002",
+        "petId": "cat-002",
+        "name": "Whiskers",
+        "age": "3 years",
+        "title": "Curious Companion",
+        "story": "Whiskers loved exploring the shelter, and the Johnsons knew he would fit their active home. He enjoys climbing shelves and curling up in sunny spots. Whiskers’ playful antics bring laughter and warmth every day.",
+        "image": "https://avatars.mds.yandex.net/i?id=897ca2207f8699d9c5c4ac9bff111545ceaa834d-6367247-images-thumbs&n=13",
+        "adoptedOn": "2024-03-10",
+        "location": "Lagos, Nigeria"
+      },
+      {
+        "id": "cat-story-003",
+        "petId": "cat-003",
+        "name": "Shadow",
+        "age": "1 year",
+        "title": "Quiet Observer",
+        "story": "Shadow was shy at first, hiding in corners. The Martins family patiently gave him space, and he became a loving lap cat. Shadow enjoys quiet evenings, purring softly and observing his surroundings with gentle curiosity.",
+        "image": "https://avatars.mds.yandex.net/i?id=e36b09f6c8a9da8b06511f1808496b95d0440a5e-7753086-images-thumbs&n=13",
+        "adoptedOn": "2024-04-05",
+        "location": "Abuja, Nigeria"
+      },
+      {
+        "id": "cat-story-004",
+        "petId": "cat-004",
+        "name": "Luna",
+        "age": "2 years",
+        "title": "Playful Spirit",
+        "story": "Luna is full of energy, chasing laser pointers and jumping between furniture. Her new family loves her spirited personality and the way she brightens every room she enters. Luna reminds everyone that rescued cats can be full of life.",
+        "image": "https://avatars.mds.yandex.net/i?id=692619c42cc122281e294c10a6c546ead349c743-4230301-images-thumbs&n=13",
+        "adoptedOn": "2024-05-12",
+        "location": "Enugu, Nigeria"
+      },
+      {
+        "id": "cat-story-005",
+        "petId": "cat-005",
+        "name": "Simba",
+        "age": "3 years",
+        "title": "Regal Companion",
+        "story": "Simba carries himself with elegance, yet loves gentle cuddles. Adopted by the Ahmed family, he enjoys exploring and napping in sunny spots. Simba’s story shows the charm and companionship that a rescued cat can bring.",
+        "image": "https://avatars.mds.yandex.net/i?id=3e19355972a583db34fff2f189a6e9a21e5c6725-5628812-images-thumbs&n=13",
+        "adoptedOn": "2024-06-20",
+        "location": "Port Harcourt, Nigeria"
+      }
+    ],
+    "rabbits": [
+      {
+        "id": "rabbit-story-001",
+        "petId": "rabbit-001",
+        "name": "Snowball",
+        "age": "1 year",
+        "title": "Cuddly Companion",
+        "story": "Snowball was shy when rescued, but quickly became playful and affectionate. His new family enjoys cuddles, garden exploration, and gentle nibbles. Snowball’s story highlights the joy of patience and love in adopting pets.",
+        "image": "https://avatars.mds.yandex.net/i?id=d0cef9d9151566c5469a35728befbf14faf2f967-16331424-images-thumbs&n=13",
+        "adoptedOn": "2024-06-01",
+        "location": "Enugu, Nigeria"
+      },
+      {
+        "id": "rabbit-story-002",
+        "petId": "rabbit-002",
+        "name": "Thumper",
+        "age": "2 years",
+        "title": "Bouncy Buddy",
+        "story": "Thumper loves hopping around the garden and exploring new spaces. The Martins family enjoys his energetic and playful personality. Thumper’s story shows how rabbits bring joy and laughter into homes.",
+        "image": "https://avatars.mds.yandex.net/i?id=6999ef5d1b55269294ed3eb6da8937efcb96ceb5-4409822-images-thumbs&n=13",
+        "adoptedOn": "2024-03-15",
+        "location": "Lagos, Nigeria"
+      },
+      {
+        "id": "rabbit-story-003",
+        "petId": "rabbit-003",
+        "name": "Coco",
+        "age": "1 year",
+        "title": "Gentle Friend",
+        "story": "Coco was timid at the shelter but blossomed in a loving home. She enjoys soft cuddles and nibbling fresh veggies. Coco demonstrates the trust and affection that come from patience and care.",
+        "image": "https://i.pinimg.com/originals/3d/b1/51/3db1516225ed11893df268b9ee2987db.jpg",
+        "adoptedOn": "2024-04-20",
+        "location": "Abuja, Nigeria"
+      },
+      {
+        "id": "rabbit-story-004",
+        "petId": "rabbit-004",
+        "name": "Daisy",
+        "age": "2 years",
+        "title": "Playful Spirit",
+        "story": "Daisy loves hopping and exploring every corner of her new home. Her family delights in her curiosity and gentle hops. Daisy’s story emphasizes the happiness rabbits bring to homes with care and attention.",
+        "image": "https://img.freepik.com/premium-photo/cute-little-brown-rabbit-white-concept-mammals-easter-isolated_42128-416.jpg",
+        "adoptedOn": "2024-05-05",
+        "location": "Ibadan, Nigeria"
+      },
+      {
+        "id": "rabbit-story-005",
+        "petId": "rabbit-005",
+        "name": "BunBun",
+        "age": "1 year",
+        "title": "Snuggle Buddy",
+        "story": "BunBun enjoys quiet cuddles and gentle playtime. Adopted by the Ahmed family, he quickly adapted and became a loving companion. His story shows that even small pets can leave a big impact on their families.",
+        "image": "https://avatars.mds.yandex.net/i?id=f7a3672e098dae07a3380269e5e71a86b127aac3-5879346-images-thumbs&n=13",
+        "adoptedOn": "2024-06-15",
+        "location": "Port Harcourt, Nigeria"
+      }
+    ]
+  }
+}

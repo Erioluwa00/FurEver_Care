@@ -1,0 +1,1021 @@
+.whom-need-card-link,
+.hero-links {
+  text-decoration: none;
+  color: white;
+}
+.whom-need-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whom-need-section {
+  max-width: 1200px;
+  width: 100%;
+  padding: 40px 20px;
+  
+  border-radius: 12px;
+ 
+}
+
+.whom-need-title {
+  text-align: center;
+  font-size: 32px;
+  color: #2d3436;
+  margin-bottom: 40px;
+  font-weight: 600;
+  position: relative;
+}
+
+.whom-need-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.whom-need-card {
+  background: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 25px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f1f2f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whom-need-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.whom-need-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: white;
+}
+
+.whom-need-card-link:nth-child(1) .whom-need-icon {
+  background: linear-gradient(135deg, #fd79a8, #e84393);
+}
+
+.whom-need-card-link:nth-child(2) .whom-need-icon {
+  background: linear-gradient(135deg, #fdcb6e, #f39c12);
+}
+
+.whom-need-card-link:nth-child(3) .whom-need-icon {
+  background: linear-gradient(135deg, #00cec9, #00b894);
+}
+
+.whom-need-card-link:nth-child(4) .whom-need-icon {
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+}
+
+.whom-need-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 10px;
+}
+
+.whom-need-description {
+  color: #2d3436;
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 220px;
+}
+
+.caring_for_companion {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 18px;
+}
+.furr-petcare-container {
+  max-width: 1200px;
+  margin: 60px auto;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+
+.furr-petcare-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.furr-petcare-image {
+  flex: 1;
+  min-width: 300px;
+  min-height: 200px;
+  background: url("https://paradepets.com/.image/w_3840,q_auto:good,c_limit/NTowMDAwMDAwMDAwMDYzNDM4/shutterstock_2393207505_1200x800.jpg")
+    no-repeat center center;
+  background-size: contain;
+  object-fit: contain;
+  padding: 40px;
+}
+
+.furr-petcare-image-placeholder i {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.furr-petcare-text {
+  flex: 1;
+  min-width: 300px;
+  padding: 60px 40px;
+}
+
+
+.furr-petcare-preheading {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  
+}
+
+.furr-petcare-heading {
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.furr-petcare-heading span {
+  color: #000000;
+}
+
+.furr-petcare-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #2d3436;
+  max-width: 500px;
+}
+
+.furr-petcare-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.furr-petcare-stat {
+  flex: 1;
+  min-width: 120px;
+}
+
+.furr-petcare-stat-number {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.furr-petcare-stat-text {
+  font-size: 1rem;
+  color: #5a6b7c;
+  font-weight: 500;
+}
+
+.furr-petcare-dots {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-image: radial-gradient(#bb86fc 3px, transparent 3px);
+  background-size: 20px 20px;
+  opacity: 0.15;
+}
+
+.dots-1 {
+  top: 20px;
+  left: 20px;
+}
+
+.dots-2 {
+  bottom: 20px;
+  right: 20px;
+}
+
+.pet-care-cta-container {
+  margin: 60px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.pet-care-cta-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.profile.ru/wp-content/uploads/2023/10/osen.jpg");
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+.pet-care-cta-content {
+  text-align: center;
+  max-width: 800px;
+  color: white;
+  z-index: 2;
+}
+
+.pet-care-cta-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.pet-care-cta-button {
+  padding: 12px 17px;
+}
+
+.pet-care-cta-button:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.pet-care-cta-paw {
+  position: absolute;
+  font-size: 120px;
+  color: rgba(255, 255, 255, 0.15);
+  z-index: 1;
+}
+
+.paw-1 {
+  top: 40px;
+  left: 40px;
+}
+
+.paw-2 {
+  bottom: 40px;
+  right: 40px;
+  transform: rotate(30deg);
+}
+
+.paw-3 {
+  top: 40px;
+  right: 40px;
+  transform: rotate(-20deg);
+}
+
+.paw-4 {
+  bottom: 40px;
+  left: 40px;
+  transform: rotate(20deg);
+}
+
+.caring-hearts-section {
+  margin: 60px auto;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  padding: 60px 30px;
+  border-radius: 16px;
+}
+
+.caring-hearts-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.caring-hearts-title {
+  font-size: 32px;
+  color: #2d3436;
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.caring-hearts-subtitle {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+}
+
+.caring-hearts-testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.caring-hearts-testimonial {
+  background: #f8f9fa;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 25px;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.caring-hearts-testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.caring-hearts-quote {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 32px;
+  color: var(--accent-color);
+  opacity: 0.2;
+}
+
+.caring-hearts-client {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.caring-hearts-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.caring-hearts-client-info {
+  flex: 1;
+}
+
+.caring-hearts-client-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 4px;
+}
+
+.caring-hearts-client-location {
+  font-size: 14px;
+  color: #636e72;
+  display: flex;
+  align-items: center;
+}
+
+.caring-hearts-location-icon {
+  margin-right: 5px;
+  color: var(--accent-color);
+  font-size: 12px;
+}
+
+.caring-hearts-text {
+  color: #2d3436;
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* about.css */
+.meet-the-team {
+  background-color: #f8f9fa;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.furr-team-section {
+  max-width: 1400px;
+  width: 100%;
+  padding: 60px 30px;
+  border-radius: 16px;
+}
+
+.furr-team-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.furr-team-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.furr-team-title {
+  font-size: 36px;
+  color: #2d3436;
+  margin-bottom: 20px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+
+.furr-team-subtitle {
+  font-size: 22px;
+  color: #2d3436;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.furr-team-tagline {
+  font-size: 18px;
+  color: #636e72;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.furr-team-description {
+  font-size: 16px;
+  color: #636e72;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.furr-team-highlight {
+  background: linear-gradient(120deg, #a8e6cf 0%, #dcedc1 100%);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.furr-team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.furr-team-member {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(94, 94, 94, 0.1);
+}
+
+.furr-team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(27, 27, 27, 0.1);
+}
+
+.furr-member-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.furr-member-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 8px;
+}
+
+.furr-member-role {
+  font-size: 16px;
+  color: var(--accent-color);
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.furr-member-details {
+  color: #2d3436;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.furr-member-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.furr-social-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.furr-social-icon:hover {
+  background: var(--accent-color);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.pet-services-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px 30px;
+}
+
+.pet-services-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.pet-services-header {
+  flex: 1;
+  min-width: 300px;
+  margin-top: 140px;
+}
+
+.pet-services-features {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Header Section */
+.pet-services-title {
+  font-size: 2.8rem;
+  color: #2d3436;
+  margin-bottom: 20px;
+  font-weight: 800;
+  position: relative;
+  line-height: 1.2;
+}
+
+.pet-services-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+
+  color: #2d3436;
+  margin-bottom: 40px;
+}
+
+
+
+.pet-services-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.pet-service-card {
+  background: #f9fafb;
+  border-radius: 15px;
+  padding: 40px 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #eaecee;
+}
+
+.pet-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 28px;
+  color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.pet-service-card:hover .service-icon {
+  transform: scale(1.1);
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.service-title {
+  font-size: 1.3rem;
+  color: #2d3436;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.service-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #2d3436;
+}
+
+.decoration {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.05;
+}
+
+.decoration-1 {
+  top: 10%;
+  left: 5%;
+  font-size: 150px;
+  color: #3498db;
+}
+
+.decoration-2 {
+  bottom: 10%;
+  right: 5%;
+  font-size: 120px;
+  color: #2ecc71;
+}
+
+
+@media (max-width: 992px) {
+  .pet-services-content {
+    flex-direction: column;
+  }
+
+  .pet-services-features {
+    width: 100%;
+  }
+
+  .pet-services-title {
+    font-size: 2.4rem;
+  }
+
+  .pet-services-subtitle {
+    font-size: 1.4rem;
+  }
+  .pet-services-header {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pet-services-features {
+    grid-template-columns: 1fr;
+  }
+
+  .pet-services-container {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pet-services-title {
+    font-size: 2rem;
+  }
+
+  .pet-services-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .pet-services-description {
+    font-size: 1rem;
+  }
+
+  .pet-service-card {
+    padding: 25px 15px;
+  }
+
+  .service-title {
+    font-size: 1.2rem;
+  }
+
+  .service-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+
+  .decoration-1,
+  .decoration-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .furr-team-members {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .furr-team-section {
+    padding: 40px 20px;
+  }
+
+  .furr-team-title {
+    font-size: 30px;
+  }
+
+  .furr-team-subtitle {
+    font-size: 20px;
+  }
+
+  .furr-team-tagline {
+    font-size: 16px;
+  }
+
+  .furr-team-members {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .furr-team-title {
+    font-size: 26px;
+  }
+
+  .furr-team-subtitle {
+    font-size: 18px;
+  }
+
+  .furr-team-tagline {
+    font-size: 15px;
+  }
+
+  .furr-team-description {
+    font-size: 15px;
+  }
+
+  .furr-team-member {
+    padding: 20px;
+  }
+
+  .furr-member-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* End of about.css */
+@media (max-width: 768px) {
+  .caring-hearts-section {
+    padding: 40px 20px;
+  }
+
+  .caring-hearts-title {
+    font-size: 32px;
+  }
+
+  .caring-hearts-subtitle {
+    font-size: 18px;
+  }
+
+  .caring-hearts-testimonials {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .caring-hearts-title {
+    font-size: 28px;
+  }
+
+  .caring-hearts-subtitle {
+    font-size: 16px;
+  }
+
+  .caring-hearts-testimonial {
+    padding: 20px;
+  }
+
+  .caring-hearts-client {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .caring-hearts-avatar {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .pet-care-cta-heading {
+    font-size: 3rem;
+  }
+
+  .pet-care-cta-background {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pet-care-cta-heading {
+    font-size: 2.5rem;
+  }
+
+  .pet-care-cta-button {
+    padding: 16px 40px;
+    font-size: 1.2rem;
+  }
+
+  .pet-care-cta-background {
+    min-height: 400px;
+    padding: 50px 30px;
+  }
+
+  .pet-care-cta-paw {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pet-care-cta-container {
+    margin: 30px auto;
+    border-radius: 15px;
+  }
+
+  .pet-care-cta-heading {
+    font-size: 2.2rem;
+  }
+
+  .pet-care-cta-button {
+    padding: 14px 35px;
+    font-size: 1.1rem;
+  }
+
+  .pet-care-cta-background {
+    min-height: 350px;
+    padding: 40px 25px;
+  }
+
+  .pet-care-cta-paw {
+    font-size: 80px;
+  }
+
+  .paw-1,
+  .paw-2,
+  .paw-3,
+  .paw-4 {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .pet-care-cta-heading {
+    font-size: 1.9rem;
+  }
+
+  .pet-care-cta-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+
+  .pet-care-cta-background {
+    min-height: 300px;
+    padding: 30px 20px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .furr-petcare-content {
+    flex-direction: column;
+  }
+
+  .furr-petcare-image {
+    order: 1;
+  }
+
+  .furr-petcare-text {
+    order: 2;
+  }
+
+  .furr-petcare-heading {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .furr-petcare-text {
+    padding: 40px 25px;
+  }
+
+  .furr-petcare-heading {
+    font-size: 2.2rem;
+  }
+
+  .furr-petcare-stats {
+    gap: 20px;
+  }
+
+  .furr-petcare-stat {
+    min-width: 100px;
+  }
+
+  .furr-petcare-stat-number {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .furr-petcare-container {
+    margin: 30px auto;
+  }
+
+  .furr-petcare-heading {
+    font-size: 1.9rem;
+  }
+
+  .furr-petcare-description {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .furr-petcare-stats {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .furr-petcare-stat {
+    text-align: center;
+  }
+
+  .furr-petcare-image-placeholder {
+    min-height: 300px;
+  }
+
+  .furr-petcare-preheading {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .whom-need-grid {
+    gap: 15px;
+  }
+
+  .whom-need-card {
+    padding: 20px 15px;
+  }
+
+  .whom-need-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .whom-need-grid {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .whom-need-title {
+    font-size: 24px;
+  }
+
+  .whom-need-card {
+    flex-direction: row;
+    text-align: left;
+    padding: 15px;
+  }
+
+  .whom-need-icon {
+    margin-bottom: 0;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .whom-need-content {
+    flex: 1;
+  }
+}
