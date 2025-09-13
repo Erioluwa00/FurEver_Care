@@ -1,6 +1,6 @@
 import React from "react";
 import ShelterNavbar from "../components/ShelterNavbar";
-import "../css/ShelterEvents.css";
+import "../css/shelterEvents.css";
 import eventsData from "../data/events.json";
 import Footer from "../../../Components/Footer/Footer";
 
